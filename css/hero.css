@@ -1,0 +1,61 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--purple);
+  padding: 2rem;
+  padding-top: 0;
+  transition: all 0.5s;
+  transition-duration: 0.9s;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--white);
+
+}
+
+span {
+  color: var(--orange);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  margin-top: 2rem;
+}
+
+.magicButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  color: var(--white);
+  background-color: var(--orange);
+  text-transform: uppercase;
+  font-weight: 600;
+
+  transition: all 0.5s;
+}
+
+.magicButton:hover {
+  width: 100%;
+}

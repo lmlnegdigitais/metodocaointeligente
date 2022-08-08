@@ -1,0 +1,62 @@
+/******************
+* Base Style *
+*******************/
+
+/* Colors Variables */
+:root {
+  --purple: #6f2ceb;
+  --orange: #feb908;
+  --white: #fff;
+  --black: #000;
+}
+
+/*Overwrite browser defauls */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.5s ease;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ANIMATION */
+
+.fade {
+  animation: fading 1s forwards;
+}
+
+/* Here is the animation (keyframes) */
+
+@keyframes fading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,26 @@
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 0 1rem;
+
+  max-width: 800px;
+}
+
+.review,
+h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 2rem 1rem;
+  text-align: center;
+  color: var(--purple);
+}
+
+img {
+  margin: 1rem 1rem;
+  object-fit: cover;
+  width: 100%;
+}
