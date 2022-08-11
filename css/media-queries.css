@@ -1,33 +1,50 @@
-@media screen and (min-width: 568px){
-    h1, h2 {
-        padding: 0 2rem;
-        font-size: 24px;
-    }   
+@media screen and (min-width: 568px) {
+  h1,
+  h2 {
+    padding: 0 2rem;
+    font-size: 24px;
+  }
+
+  .magicButton {
+    font-size: 20px;
+  }
 }
 
-@media screen and (min-width: 868px){
-    h1, h2 {
-        padding: 0 2rem;
-        font-size: 32px;
-    }
-    
+@media screen and (min-width: 868px) {
+  h1,
+  h2 {
+    padding: 0 2rem;
+    font-size: 32px;
+  }
 }
 
-@media screen and (min-width: 1200px){
-    h1, h2 {
-        padding: 0 2rem;
-        font-size: 42px;
-    }
+@media screen and (min-width: 1200px) {
+  h1,
+  h2 {
+    font-weight: bold;
+    padding: 0 2rem;
+    font-size: 42px;
+  }
 
-    .magicButton {
-        width: 70%;
-    }
-
-    .magicFrame {
-        height: 496px;
-    }
+  /* .hero {
+   
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
     
-    .customFooter {
-        margin-top: 50px;
-    }
+   
+  } */
+
+  .magicButton {
+    width: 70%;
+  }
+
+  .magicFrame {
+    height: 496px;
+  }
+
+  .customFooter {
+    margin-top: 50px;
+  }
 }
