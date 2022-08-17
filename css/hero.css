@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100%;
   background-color: var(--purple);
-  padding: 1rem;
+  padding: 8px;
   padding-top: 0;
   transition: all 0.5s;
   transition-duration: 0.9s;
@@ -13,10 +13,10 @@
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  padding: 0 1rem;
-  margin-top: 2rem;
+  padding: 1px;
+  margin-top: 8px;
   margin-bottom: 2rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -46,7 +46,7 @@ span {
   height: 56px;
   padding: 8px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 18px;
   border: none;
   color: var(--white);
   background-color: var(--orange);
