@@ -7,6 +7,7 @@
   background-color: var(--purple);
   padding: 8px;
   padding-top: 0;
+  padding-bottom: 25px;
   transition: all 0.5s;
   transition-duration: 0.9s;
   height: auto;
